@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+.inner{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.visual-sw{
+    position: relative;
+    width: 100%;
+}
+.visual-sw .swiper-slide{
+    width: 100%;
+
+}
+.visual-sw .swiper-slide img{
+    width: 100%;
+}
