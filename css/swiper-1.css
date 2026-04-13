@@ -8,9 +8,13 @@ li {
   list-style: none;
 }
 .inner {
-  width: 100%;
+  width: 90%;
   max-width: 1200px;
   margin: auto;
+}
+img{
+    display: block;
+    width: 100%;
 }
 .visual-sw {
   position: relative;
@@ -32,7 +36,11 @@ li {
   border-radius: 50%;
   padding: 10px;
 }
-/* 페이지 이션 커스텀 */
+.swiper-button-next svg,
+.swiper-button-prev svg {
+  display: none;
+}
+/* 페이지네이션 커스텀 */
 /* 비활성화 */
 .swiper-pagination-bullet {
   background-color: rgb(248, 248, 43);
@@ -42,8 +50,11 @@ li {
 }
 /* 활성화 */
 .swiper-pagination-bullet-active {
-    border-radius: 0;
-    width: 20px;
-    height: 5px;
+  border-radius: 0;
+  width: 22px;
+  height: 27px;
   background-color: rgb(149, 131, 255);
+  background: url(../images/images/spoon.png) no-repeat; /*활성화 되었을때 이미지 변경*/
+  opacity: 1;
+  background-size: contain;
 }
